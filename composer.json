@@ -1,0 +1,31 @@
+{
+    "name": "azjezz/toml",
+    "type": "library",
+    "description": "A TOML ( Tom's Obvious, Minimal Language ) parser implementation for data serialization and deserialization in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "azjezz",
+            "email": "azjezz@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "azjezz/psl": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.5",
+        "vimeo/psalm": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TOML\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TOML\\Test\\": "tests/"
+        }
+    }
+}
